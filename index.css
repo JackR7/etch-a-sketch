@@ -5,7 +5,11 @@
     gap: 0px;
 }
 
-    .grid-item{
+    .grid-item, #grid-itemid{
         padding: 0;
         border: 2px solid black;
     }
+
+        /*.grid-item:hover{
+            background-color: rgb(206, 0, 0);
+        }*/
