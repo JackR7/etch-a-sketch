@@ -15,10 +15,14 @@ for(let i = 1; i <= 256; i++){
 let gridItemId = document.getElementById('grid-itemid');
 let gridItems = document.querySelectorAll('#grid-itemid');
 
+
 gridItems.forEach(gridItem => {
     gridItem.addEventListener('click', () => changeColorBackground(gridItem));
+    gridItem.addEventListener('mouseover', () => console.log("mouseover"));
 });
+
 
 function changeColorBackground(gridItem){
     gridItem.style.backgroundColor = 'red'
 }
+
